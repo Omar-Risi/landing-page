@@ -125,7 +125,7 @@ nav.nav-container > * {flex:1;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
 
     box-sizing:border-box;
     padding-top: 5rem;
@@ -162,4 +162,37 @@ nav.nav-container > * {flex:1;}
     border: 5px solid;
     border-color: var(--light-blue);
     border-radius:10px;
+}
+
+/* Testimonial */
+
+.testimonial
+{
+    background-color: var(--alt-white);
+    box-sizing: border-box;
+    margin-top: 10vh;
+    padding-top: 40px;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial * 
+{
+   width: 40%; 
+}
+
+.testimonial p 
+{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.testimonial h4 
+{
+    text-align: end;
 }
