@@ -114,4 +114,52 @@ nav.nav-container > * {flex:1;}
     display:flex;
     justify-content: center;
     align-items:center;
+
+}
+
+/* Random Information */
+
+.random-information 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    box-sizing:border-box;
+    padding-top: 5rem;
+}
+
+.random-information h1
+{
+    flex:1;
+    color: var(--dark-color);
+}
+
+
+.random-information ul
+{
+    flex:3;
+
+    list-style:none;
+    display: flex;
+    flex-direction:row;
+    gap: 3rem;
+}
+
+.random-information ul li 
+{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.random-information ul li .image-box 
+{
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    border-color: var(--light-blue);
+    border-radius:10px;
 }
