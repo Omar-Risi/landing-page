@@ -196,3 +196,56 @@ nav.nav-container > * {flex:1;}
 {
     text-align: end;
 }
+
+/* Call To Action */
+
+.cta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 20vh;
+}
+
+.cta .cta-box 
+{
+    background-color: var(--light-blue);
+    color: var(--white-color);
+    box-sizing: border-box;
+    padding:10vh;
+    height: 20vh;
+    width: 60vw;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .cta-box > * 
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta .cta-box .text 
+{
+    align-items: flex-start;
+}
+
+.cta .cta-box div button.sign-up 
+{
+    background-color: transparent;
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: .25rem;
+    width: 10rem;
+    cursor: pointer;
+}
