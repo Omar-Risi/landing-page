@@ -12,9 +12,11 @@
     --dark-color: #1f2937;
     --white-color: #f9faf8;
     --alt-white: #e5e7eb;
+    --light-blue: #3882f6;
 }
 
 
+ /* Navigation Bar */ 
 nav.nav-container
 {
     background-color: var(--dark-color);
@@ -51,4 +53,65 @@ nav.nav-container > * {flex:1;}
 {
     color: var(--alt-white);
     text-decoration: none;
+}
+
+/* Introduction Menu */
+.introduction 
+{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    height: 40vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 150px;
+    box-sizing: border-box;
+}
+
+.introduction > * 
+{
+    width: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.introduction .text-container 
+{
+    align-items: flex-start;
+    gap: .2rem;
+}
+
+.introduction .text-container p 
+{
+    color: var(--alt-white);
+    width: 20vw;
+}
+
+.introduction .text-container button.sign-up 
+{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    background-color:var(--light-blue);
+    color: var(--white-color);
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.introduction div .image 
+{
+    background-color: #fff7;
+    width: 500px;
+    height: 250px;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
